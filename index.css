@@ -1,19 +1,36 @@
-/* This is an example CSS file, feel free to remove/edit it anytime */
-.footer {
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Kanit-Light;
+  src: url("assets/fonts/Kanit-Light.ttf");
+}
+
+@font-face {
+  font-family: Kanit-Medium;
+  src: url("assets/fonts/Kanit-Medium.ttf");
+}
+
+@font-face {
+  font-family: Kanit-Regular;
+  src: url("assets/fonts/Kanit-Regular.ttf");
+}
+
+.background-top {
+  height: 25vh;
+  background-color: red;
+}
+/* for now this is the background */
+.background-bottom {
+  height: 75vh;
+  background-color: rgb(12, 12, 32);
+}
+
+.main {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 10px;
-  text-align: center;
-}
-
-.footer a {
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.footer span {
-  font-size: 14px;
+  background-color: white;
+  top: 20%;
+  height: 200px;
 }
